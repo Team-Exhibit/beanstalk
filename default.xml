@@ -24,7 +24,7 @@
   <project path="android" name="scotthartbti/android" revision="kk44" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" />
+  <project path="art" name="scotthartbti/android_art" revision="kk44" />
   <project path="bionic" name="scotthartbti/android_bionic" revision="kk44" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -284,6 +284,7 @@
   <project path="frameworks/native" name="Team-beanstalk/frameworks_native" revision="kk44" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
+  <project path="frameworks/opt/cards" name="scotthartbti/frameworks_opt_cards" revision="kk44" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="scotthartbti/android_frameworks_opt_datetimepicker" revision="kk44" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
@@ -343,7 +344,7 @@
   <project path="packages/apps/Calendar" name="scotthartbti/android_packages_apps_Calendar" revision="kk44" />
   <project path="packages/apps/StalkExplorer" name="scotthartbti/android_packages_apps_StalkExplorer" revision="kk44" />
   <project path="packages/apps/Camera2" name="scotthartbti/android_packages_apps_Camera2" revision="kk44" />
-  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="scotthartbti/android_packages_apps_CellBroadcastReceiver" revision="kk44" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
@@ -375,7 +376,7 @@
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
-  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
+  <project path="packages/apps/Stk" name="scotthartbti/android_packages_apps_Stk" revision="kk44" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/BeanStalkPapers" name="scotthartbti/android_packages_apps_BeanStalkPapers" revision="kk44" />
   <project path="packages/apps/DashClock" name="scotthartbti/android_packages_apps_DashClock" revision="kk44" />
@@ -395,7 +396,7 @@
   <project path="packages/providers/DownloadProvider" name="scotthartbti/android_packages_providers_DownloadProvider" revision="kk44" />
   <project path="packages/providers/MediaProvider" name="scotthartbti/packages_providers_MediaProvider" revision="kk44" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="scotthartbti/android_packages_providers_TelephonyProvider" revision="kk44" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />

@@ -15,7 +15,7 @@
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-j="1" />
+           sync-j="4" />
 
   <project path="build" name="scotthartbti/platform_build" revision="kk44" >
     <copyfile src="core/root.mk" dest="Makefile" />

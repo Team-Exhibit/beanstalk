@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="Team-Exhibit/platform_build" revision="kk44" >
+  <project path="build" name="Beanstalk-Meticulus/platform_build" revision="kk44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -25,7 +25,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="scotthartbti/android_art" revision="kk44" />
-  <project path="bionic" name="Team-Exhibit/android_bionic" revision="kk44" />
+  <project path="bionic" name="Beanstalk-Meticulus/android_bionic" revision="kk44" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
@@ -73,7 +73,7 @@
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="Team-Exhibit/android_external_chromium_org" revision="kk44" />
+  <project path="external/chromium_org" name="Beanstalk-Meticulus/android_external_chromium_org" revision="kk44" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -277,8 +277,8 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="Team-Exhibit/beanstalk_frameworks_av" revision="kk44" />
-  <project path="frameworks/base" name="Team-Exhibit/beanstalk_frameworks_base" revision="kk44" />
+  <project path="frameworks/av" name="Beanstalk-Meticulus/beanstalk_frameworks_av" revision="kk44" />
+  <project path="frameworks/base" name="Beanstalk-Meticulus/beanstalk_frameworks_base" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -286,7 +286,7 @@
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="Team-Exhibit/beanstalk_frameworks_native" revision="kk44" />
+  <project path="frameworks/native" name="Beanstalk-Meticulus/beanstalk_frameworks_native" revision="kk44" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/cards" name="scotthartbti/frameworks_opt_cards" revision="kk44" />
@@ -341,7 +341,7 @@
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/BeanStalkOTA" name="scotthartbti/android_packages_apps_BeanStalkOTA" revision="kk44" />
-  <project path="packages/apps/Bluetooth" name="Team-Exhibit/android_packages_apps_Bluetooth" revision="kk44" />
+  <project path="packages/apps/Bluetooth" name="Beanstalk-Meticulus/android_packages_apps_Bluetooth" revision="kk44" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="scotthartbti/android_packages_apps_Calculator" revision="kk44" />
@@ -358,7 +358,7 @@
   <project path="packages/apps/DeskClock" name="scotthartbti/android_packages_apps_DeskClock" revision="kk44" />
   <project path="packages/apps/Dialer" name="scotthartbti/android_packages_apps_Dialer" revision="kk44" />
   <project path="packages/apps/DSPManager" name="scotthartbti/android_packages_apps_DSPManager" revision="kk44" />
-  <project path="packages/apps/Email" name="Team-Exhibit/android_packages_apps_Email" revision="kk44" />
+  <project path="packages/apps/Email" name="Beanstalk-Meticulus/android_packages_apps_Email" revision="kk44" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="scotthartbti/android_packages_apps_Gallery2" revision="kk44" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
@@ -405,7 +405,7 @@
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="Team-Exhibit/beanstalk_packages_services_Telephony" revision="kk44" />
+  <project path="packages/services/Telephony" name="Beanstalk-Meticulus/beanstalk_packages_services_Telephony" revision="kk44" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -462,13 +462,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/core" name="Team-Exhibit/beanstalk_system_core" revision="kk44" />
+  <project path="system/core" name="Beanstalk-Meticulus/beanstalk_system_core" revision="kk44" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="scotthartbti/system_media" revision="kk44" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="Team-Exhibit/beanstalk_system_vold" groups="pdk" />
+  <project path="system/vold" name="Beanstalk-Meticulus/beanstalk_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -479,7 +479,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="vendor/cm" name="Team-Exhibit/proprietary_vendor_cm" revision="kk44" />
+  <project path="vendor/cm" name="Beanstalk-Meticulus/proprietary_vendor_cm" revision="kk44" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="scotthartbti/android_vendor_tmobile_libs_com.tmobile.themes" revision="kk44" />
